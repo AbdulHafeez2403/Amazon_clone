@@ -20,6 +20,7 @@
      background-size: cover;
      height: 50px;
      width: 100%;
+     cursor: pointer;
 }
 .border {
     border: 1.5px solid transparent;
@@ -28,6 +29,7 @@
     border: 1.8px solid white;
     border-radius: 3px;
 }
+
 
 /* box-2 */
 .nav-address{
@@ -206,4 +208,60 @@
     color: #007185;
     padding-left:20px ;
     text-decoration: none;
+}
+
+/* footer section  */
+footer{
+    color:white;
+}
+.foot-panel1{
+    height: 50px;
+    background-color: #222f3d;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-weight: bold;
+}
+.foot-panel2{
+    background-color: #18212b;
+    height: 500px;
+    display: flex;
+    justify-content: space-evenly;
+}
+.contact{
+    /* border: 2px solid white; */
+    
+    width: 20%;
+    padding: 15px;
+    margin: 20px 0;
+}
+.contact p,h3{
+    margin: 10px 0;
+}
+.foot-panel3{
+    background-color: #222f3d;
+    height: 70px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.panel3-main{
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    width: 50%;
+    /* border: 2px solid white; */
+}
+.language{
+    display: flex;
+    padding: 5px;
+    margin: 10px;
+}
+.language p{
+    padding: 0 5px;
+}
+.text{
+    padding: 5px;
+    cursor: pointer;
+    margin: 10px;
 }
